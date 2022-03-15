@@ -1,0 +1,5 @@
+requests.http
+POST http://localhost:3000/query_params
+Content-Type: application/json
+
+{"query_params": "hello"}

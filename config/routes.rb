@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  get "/phrase", controller: "new", action: "phrase_method"
+  #
+  get "/query", controller: "Controller", action: params_query
 end
